@@ -1,383 +1,775 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M.S Factory</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Portfolio N . S</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    
+    <!-- navbar start -->
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">PortFolio</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <nav class="nav">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="#home" class="nav-item nav-link active">Home</a>
+                    <a href="#about" class="nav-item nav-link">About</a>
+                    <a href="#service" class="nav-item nav-link">Service</a>
+                    <a href="#experience" class="nav-item nav-link">Experience</a>
+                    <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                    <a href="#price" class="nav-item nav-link">Price</a>
+                    <a href="#review" class="nav-item nav-link">Review</a>
+                    <a href="#team" class="nav-item nav-link">Team</a>
+                    <a href="#blog" class="nav-item nav-link">Blog</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- hero start -->
+    <div class="hero" id="home">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <p>I'm</p>
+                            <h1>Nino Shpetishvili</h1>
+                            <h2></h2>
+                            <div class="typed-text">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
+                        </div>
+                        <div class="hero-btn">
+                            <a class="btn" href="">Hire Me</a>
+                            <a class="btn" href="">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 d-none d-md-block">
+                    <div class="hero-image">
+                        <img src="./img/hero/nino.png" alt="Hero Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero end -->
+
+    <!-- about start -->
+    <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img src="./img/about/about-2.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="section-header text-left">
+                            <p>Learn About Me</p>
+                            <h2>7 Years Experience</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida
+                            </p>
+                        </div>
+                        <div class="skills">
+                            <div class="skill-name">
+                                <p>Web Design</p><p>85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="skill-name">
+                                <p>Web Development</p><p>95%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="skill-name">
+                                <p>Apps Design</p><p>90%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="skill-name">
+                                <p>Apps Development</p><p>85%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <a class="btn" href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end -->
+
+    <!-- service start -->
+    <div class="service" id="service">
         <div class="container">
-            
-            <div class="nav__row">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>What I do</p>
+                <h2>Awesome Quality Services</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-laptop"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Web Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-laptop-code"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Web Development</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Apps Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Apps Development</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service end -->
 
-                <a href="#" class="nav__logo">
-                    M.S Factory
-                </a>
+    <!-- experience start -->
+    <div class="experience" id="experience">
+        <div class="container">
+            <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>My Resume</p>
+                <h2>Working Experience</h2>
+            </header>
+            <div class="timeline">
+                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">2012 - 2019</div>
+                        <h2>Web Developer</h2>
+                        <h4>Soft Agency, San Francisco, CA</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">2012 - 2019</div>
+                        <h2>Web Developer</h2>
+                        <h4>Soft Agency, San Francisco, CA</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">2012 - 2019</div>
+                        <h2>Web Developer</h2>
+                        <h4>Soft Agency, San Francisco, CA</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">2012 - 2019</div>
+                        <h2>Web Developer</h2>
+                        <h4>Soft Agency, San Francisco, CA</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">2012 - 2019</div>
+                        <h2>Web Developer</h2>
+                        <h4>Soft Agency, San Francisco, CA</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">2012 - 2019</div>
+                        <h2>Web Developer</h2>
+                        <h4>Soft Agency, San Francisco, CA</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- experience end -->
 
-                <div class="nav__list-holder">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Necklaces</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Rings</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Braceletes & Cuffs</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Earrings</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Faq</a>
-                        </li>                 
+    <!-- top banner start -->
+    <div class="banner wow zoomIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Reasonable Price</p>
+                <h2>Get A <span>Special</span> Price</h2>
+            </div>
+            <div class="container banner-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
+                </p>
+                <a class="btn">Pricing Plan</a>
+            </div>
+        </div>
+    </div>
+    <!-- top banner end -->
+
+    <!-- portfolio start -->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>My Portfolio</p>
+                <h2>My Excellent Portfolio</h2>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul id="portfolio-filter">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-1">Web Design</li>
+                        <li data-filter=".filter-2">Mobile Apps</li>
+                        <li data-filter=".filter-3">Game Dev</li>
                     </ul>
                 </div>
-
-                <div class="nav__cart">
-                    <a href="#" class="nav__cart-link">
-                        <span class="nav__cart-number">3</span>
-                        <img src="./img/icon/shopping-cart.svg" alt="Cart">
-                    </a>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="./img/portfolio/portfolio-1.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>eCommerce Website</h3>
+                            <a class="btn" href="./img/portfolio/portfolio-1.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="menu-icon-wrapper">
-                    <div class="menu-icon"></div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="./img/portfolio/portfolio-2.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>Product Landing Page</h3>
+                            <a class="btn" href="./img/portfolio/portfolio-2.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
                 </div>
-
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="./img/portfolio/portfolio-3.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>JavaScript quiz game</h3>
+                            <a class="btn" href="./img/portfolio/portfolio-3.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="./img/portfolio/portfolio-4.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>JavaScript drawing</h3>
+                            <a class="btn" href="./img/portfolio/portfolio-4.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="./img/portfolio/portfolio-5.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>Social Mobile Apps</h3>
+                            <a class="btn" href="./img/portfolio/portfolio-5.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
+                    <div class="portfolio-wrap">
+                        <div class="portfolio-img">
+                            <img src="./img/portfolio/portfolio-6.jpg" alt="Image">
+                        </div>
+                        <div class="portfolio-text">
+                            <h3>Company Website</h3>
+                            <a class="btn" href="./img/portfolio/portfolio-6.jpg" data-lightbox="portfolio">+</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-
-    <header class="header">
+    </div>
+    <!-- portfolio end -->
+     
+    <!-- bottom banner start -->
+    <div class="banner wow zoomIn" data-wow-delay="0.1s">
         <div class="container">
-            <div class="header__row">
-                <div class="header__content">
-                    <h1 class="header__title">Be Distinct! </h1>
-                    <div class="header__text">
-                        <p>Order Handmade Accessories From Modern Style Factory.Free Shipping</p>
-                    </div>
-                    <div class="header__btn">
-                        <a href="" class="button">Shop Now</a>
-                    </div>
-                </div>
-                <div class="header__photo">
-                    <img src="./img/header/header.jpg" alt="Header photo">
-    
-                </div>
+            <div class="section-header text-center">
+                <p>Awesome Discount</p>
+                <h2>Get <span>30%</span> Discount</h2>
+            </div>
+            <div class="container banner-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
+                </p>
+                <a class="btn">Order Now</a>
             </div>
         </div>
-    </header>
+    </div>
+    <!-- bottom banner end -->
 
-    <main>
-
-        <section class="section-new">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-header__title">New Products</h2>
-                    <div class="section-header__description 
-                    section-header__description--uppercase">
-                        <p>Handmade Accessories</p>
-                    </div>
-                </div>
-                <div class="products-wrapper">
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/product.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Necklace</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">125$</span>
-                                <span class="product__price-new">100$</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/product2.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Necklace</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">125$</span>
-                                <span class="product__price-new">100$</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/product3.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Necklace</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">125$</span>
-                                <span class="product__price-new">100$</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/product4.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Necklace</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">125$</span>
-                                <span class="product__price-new">100$</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/product5.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Necklace</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">125$</span>
-                                <span class="product__price-new">100$</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/product6.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Necklace</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">125$</span>
-                                <span class="product__price-new">100$</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/product7.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Necklace</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">125$</span>
-                                <span class="product__price-new">100$</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/product8.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Necklace</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">125$</span>
-                                <span class="product__price-new">100$</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="section-button-wrapper">
-                    <a href="#" class="button-outline">
-                        Browse all items
-                    </a>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="info-section">
-            <div class="container">
-                <div class="info-section__row">
-                    <h2 class="info-section__title">Get Something You Love</h2>
-                    <a href="#" class="button">Shop Now</a>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="section-featured">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-header__title">Featured Products</h2>
-                    <div class="section-header__description 
-                    section-header__description--uppercase">
-                        <p>Handmade Accessories</p>
-                    </div>
-                </div>
-                <div class="products-wrapper">
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/feauter1.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Earrings</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">139$</span>
-                                <span class="product__price-new">100$</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/feauter3.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Necklace</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">125$</span>
-                                <span class="product__price-new">100$</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/feauter4.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Necklace</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">125$</span>
-                                <span class="product__price-new">100$</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" class="product-link">
-                        <div class="product">
-                            <img src="./img/products/feauter2.jpg" alt="Product Photo" class="product__img">
-                            <h4 class="product__title">Earrings</h4>
-                            <div class="product__price">
-                                <span class="product__price-old">79$</span>
-                                <span class="product__price-new">69$</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="section-button-wrapper">
-                    <a href="#" class="button-outline">
-                        Browse all items
-                    </a>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="info-section">
-            <div class="container">
-                <div class="info-section__row">
-                    <h2 class="info-section__title">New Special Dream Collection</h2>
-                    <a href="#" class="button">Shop Now</a>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="section-blog">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-header__title">Blog Posts</h2>
-                    <div class="section-header__description 
-                    section-header__description--uppercase">
-                        <p>Editor’s picks</p>
-                    </div>
-                </div>
-
-                <div class="posts-wrapper">
-                    
-                    <div class="post">
-                        <img src="./img/blog/post1.jpg" alt="blog photo" class="post__img">
-                        <div class="post__content">
-                            <h4 class="post__title">Lorem Dolor Amet Consectetur Dipisicing </h4>
-                            <p class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                            <a href="#" class="post__reade-more">Read more</a>
-                        </div>
-                    </div>
-                    <div class="post">
-                        <img src="./img/blog/post2.jpg" alt="blog photo" class="post__img">
-                        <div class="post__content">
-                            <h4 class="post__title">Lorem Dolor Amet Consectetur Dipisicing </h4>
-                            <p class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                            <a href="#" class="post__reade-more">Read more</a>
-                        </div>
-                    </div>
-                    <div class="post">
-                        <img src="./img/blog/post3.jpg" alt="blog photo" class="post__img">
-                        <div class="post__content">
-                            <h4 class="post__title">Lorem Dolor Amet Consectetur Dipisicing </h4>
-                            <p class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                            <a href="#" class="post__reade-more">Read more</a>
-                        </div>
-                    </div>
-                    <div class="post">
-                        <img src="./img/blog/post4.jpg" alt="blog photo" class="post__img">
-                        <div class="post__content">
-                            <h4 class="post__title">Lorem Dolor Amet Consectetur Dipisicing </h4>
-                            <p class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                            <a href="#" class="post__reade-more">Read more</a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="section-button-wrapper">
-                    <a href="#" class="button-outline">
-                        Read all posts
-                    </a>
-                </div>
-
-            </div>
-        </section>
-        
-        <section class="section-subscribe">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-header__title">Join 100,000 members already collaborating </h2>
-                    <div class="section-header__description 
-                    section-header__description--16px">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation</p>
-                    </div>
-                </div>
-                <form action="" class="subscribe-form">
-                    <input placeholder="Your email address" type="text" class="subscribe-form__input">
-                    <button class="subscribe-form__button">Subscribe</button>
-                </form>
-            </div>
-        </section>
-
-
-    </main>
-
-    <footer class="footer">
+    <!-- price start -->
+    <div class="price" id="price">
         <div class="container">
-            <div class="footer__column">
-                <nav class="footer__nav">
-                    <a href="#">Your account</a>
-                    <a href="#">Contact us</a>
-                    <a href="#">Terms of use</a>
-                </nav>
-    
-                <div class="footer__socials">
-                    <a href="#" class="footer__socials-link">
-                        <svg class="footer__socials-icon" width="16" height="30" viewBox="0 0 16 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.1124 29.9999V16.3154H14.7057L15.3934 10.9824H10.1124V7.57736C10.1124 6.03335 10.5412 4.98102 12.7555 4.98102L15.5796 4.97972V0.209915C15.0909 0.145158 13.4146 0 11.4644 0C7.39277 0 4.60522 2.48522 4.60522 7.04946V10.9825H0V16.3156H4.60507V30L10.1124 29.9999Z" fill="white"/>
-                        </svg>
-                    </a>
-                    <a href="https://www.instagram.com/modern_style_factory/" class="footer__socials-link" target="_blank">
-                        <svg class="footer__socials-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.0008 15C10.0008 12.2387 12.2387 9.9996 15 9.9996C17.7613 9.9996 20.0004 12.2387 20.0004 15C20.0004 17.7613 17.7613 20.0004 15 20.0004C12.2387 20.0004 10.0008 17.7613 10.0008 15ZM7.29768 15C7.29768 19.254 10.746 22.7023 15 22.7023C19.254 22.7023 22.7023 19.254 22.7023 15C22.7023 10.746 19.254 7.29768 15 7.29768C10.746 7.29768 7.29768 10.746 7.29768 15ZM21.2072 6.99228C21.2071 7.34829 21.3125 7.69634 21.5102 7.99243C21.7079 8.28852 21.9889 8.51934 22.3177 8.65571C22.6466 8.79208 23.0085 8.82787 23.3577 8.75855C23.7069 8.68924 24.0277 8.51793 24.2795 8.2663C24.5314 8.01467 24.7029 7.69401 24.7725 7.34487C24.8421 6.99573 24.8066 6.6338 24.6705 6.30483C24.5344 5.97587 24.3038 5.69466 24.0079 5.49675C23.7119 5.29885 23.364 5.19314 23.008 5.193H23.0072C22.53 5.19322 22.0724 5.38284 21.7349 5.7202C21.3974 6.05756 21.2077 6.51508 21.2072 6.99228ZM8.94 27.2096C7.47756 27.143 6.68268 26.8994 6.15444 26.6936C5.45412 26.421 4.95444 26.0963 4.42908 25.5716C3.90372 25.047 3.57852 24.5478 3.30708 23.8475C3.10116 23.3195 2.85756 22.5244 2.79108 21.0619C2.71836 19.4808 2.70384 19.0058 2.70384 15.0001C2.70384 10.9944 2.71956 10.5208 2.79108 8.93832C2.85768 7.47588 3.10308 6.68232 3.30708 6.15276C3.57972 5.45244 3.90444 4.95276 4.42908 4.4274C4.95372 3.90204 5.45292 3.57684 6.15444 3.3054C6.68244 3.09948 7.47756 2.85588 8.94 2.7894C10.5211 2.71668 10.9961 2.70216 15 2.70216C19.0039 2.70216 19.4794 2.71788 21.0618 2.7894C22.5242 2.856 23.3178 3.1014 23.8474 3.3054C24.5477 3.57684 25.0474 3.90276 25.5727 4.4274C26.0981 4.95204 26.4221 5.45244 26.6947 6.15276C26.9006 6.68076 27.1442 7.47588 27.2107 8.93832C27.2834 10.5208 27.298 10.9944 27.298 15.0001C27.298 19.0058 27.2834 19.4795 27.2107 21.0619C27.1441 22.5244 26.8993 23.3192 26.6947 23.8475C26.4221 24.5478 26.0974 25.0475 25.5727 25.5716C25.0481 26.0958 24.5477 26.421 23.8474 26.6936C23.3194 26.8996 22.5242 27.1432 21.0618 27.2096C19.4807 27.2824 19.0057 27.2969 15 27.2969C10.9943 27.2969 10.5206 27.2824 8.94 27.2096ZM8.8158 0.09084C7.21896 0.16356 6.1278 0.41676 5.17488 0.78756C4.188 1.17048 3.35256 1.6842 2.51772 2.51772C1.68288 3.35124 1.17048 4.188 0.78756 5.17488C0.41676 6.1284 0.16356 7.21896 0.09084 8.8158C0.01692 10.4152 0 10.9265 0 15C0 19.0735 0.01692 19.5848 0.09084 21.1842C0.16356 22.7812 0.41676 23.8716 0.78756 24.8251C1.17048 25.8114 1.683 26.6491 2.51772 27.4823C3.35244 28.3154 4.188 28.8284 5.17488 29.2124C6.1296 29.5832 7.21896 29.8364 8.8158 29.9092C10.416 29.9819 10.9265 30 15 30C19.0735 30 19.5848 29.9831 21.1842 29.9092C22.7812 29.8364 23.8716 29.5832 24.8251 29.2124C25.8114 28.8284 26.6474 28.3158 27.4823 27.4823C28.3171 26.6488 28.8284 25.8114 29.2124 24.8251C29.5832 23.8716 29.8376 22.781 29.9092 21.1842C29.9819 19.5836 29.9988 19.0735 29.9988 15C29.9988 10.9265 29.9819 10.4152 29.9092 8.8158C29.8364 7.21884 29.5832 6.1278 29.2124 5.17488C28.8284 4.1886 28.3158 3.35256 27.4823 2.51772C26.6488 1.68288 25.8114 1.17048 24.8263 0.78756C23.8716 0.41676 22.781 0.16236 21.1854 0.09084C19.586 0.01812 19.0747 0 15.0012 0C10.9277 0 10.416 0.01692 8.8158 0.09084Z" fill="white"/>
-                        </svg>   
-                    </a>
-                    <a href="#" class="footer__socials-link">
-                        <svg class="footer__socials-icon" width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M25.7625 5.8125C25.7625 6.075 25.7625 6.3375 25.7625 6.5625C25.7625 14.325 19.8375 23.2875 9.0375 23.2875C5.7 23.2875 2.625 22.3125 0 20.6625C0.45 20.7 0.9375 20.7375 1.3875 20.7375C4.125 20.7375 6.675 19.8 8.7 18.225C6.1125 18.1875 3.9375 16.4625 3.225 14.1375C3.6 14.2125 3.9375 14.25 4.35 14.25C4.875 14.25 5.4 14.175 5.8875 14.025C3.1875 13.5 1.1625 11.1375 1.1625 8.2875C1.1625 8.25 1.1625 8.25 1.1625 8.2125C1.95 8.6625 2.85 8.925 3.825 8.9625C2.25 7.9125 1.2 6.1125 1.2 4.05C1.2 2.9625 1.5 1.95 1.9875 1.0875C4.875 4.65 9.225 6.975 14.1 7.2375C13.9875 6.825 13.95 6.3375 13.95 5.8875C13.95 2.625 16.575 0 19.8375 0C21.525 0 23.0625 0.7125 24.1125 1.8375C25.4625 1.575 26.7 1.0875 27.8625 0.4125C27.4125 1.8 26.475 2.925 25.275 3.675C26.475 3.525 27.6 3.225 28.65 2.7375C27.9 3.9375 26.925 4.9875 25.7625 5.8125Z" fill="white"/>
-                        </svg>  
-                    </a>
-                    <a href="#" class="footer__socials-link">
-                        <svg class="footer__socials-icon" width="27" height="30" viewBox="0 0 27 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.8726 20.4281C11.5417 21.6015 13.5028 22.5951 15.585 22.5951C21.7856 22.5951 26.25 17.3679 26.25 10.8774C26.25 4.65645 20.707 0 13.5778 0C4.70666 0 0 5.45455 0 11.4006C0 14.1649 1.60349 17.6004 4.17024 18.6945C4.56246 18.8636 4.77011 18.7896 4.85663 18.4461C4.92584 18.1818 5.27192 16.908 5.42765 16.3108C5.48533 16.1205 5.43342 15.9144 5.28345 15.7717C4.43556 14.8256 3.75494 13.092 3.75494 11.4746C3.75494 7.3203 7.18688 3.2981 13.0356 3.2981C18.0883 3.2981 21.6241 6.4482 21.6241 10.9619C21.6241 16.0571 18.8151 19.5877 15.1582 19.5877C13.1394 19.5877 11.6282 18.0603 12.1127 16.1839C12.6953 13.9429 13.8143 11.5275 13.8143 9.91015C13.8143 8.46195 12.9664 7.25687 11.2129 7.25687C9.14799 7.25687 7.49258 9.21247 7.49258 11.8288C7.49258 13.4989 8.10976 14.6247 8.10976 14.6247C8.10976 14.6247 6.07367 22.5159 5.69875 23.9852C5.27192 25.6765 5.46803 28.1025 5.6526 29.5825C6.07367 29.7304 6.48896 29.8784 6.92156 30C7.75791 28.7685 9.10761 26.6015 9.58636 24.8996C9.84015 24.0275 10.8726 20.4281 10.8726 20.4281Z" fill="white"/>
-                        </svg>       
-                    </a>
-                </div>
-    
-                <div class="footer__copyright">
-                    <p>Copyright © 2021 Jack Iakovenko</p>
-                </div>
-                
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>Pricing Plan</p>
+                <h2>Affordable Price</h2>
             </div>
-
+            <div class="row">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="price-item">
+                        <div class="price-header">
+                            <div class="price-title">
+                                <h2>Basic</h2>
+                            </div>
+                            <div class="price-prices">
+                                <h2><small>$</small>49<span>/ mo</span></h2>
+                            </div>
+                        </div>
+                        <div class="price-body">
+                            <div class="price-description">
+                                <ul>
+                                    <li>Bootstrap 5</li>
+                                    <li>Font Awesome</li>
+                                    <li>Responsive Design</li>
+                                    <li>Browser Compatibility</li>
+                                    <li>Easy To Use</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="price-footer">
+                            <div class="price-action">
+                                <a class="btn" href="">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.0s">
+                    <div class="price-item featured-item">
+                        <div class="price-header">
+                            <div class="price-title">
+                                <h2>Standard</h2>
+                            </div>
+                            <div class="price-prices">
+                                <h2><small>$</small>99<span>/ mo</span></h2>
+                            </div>
+                        </div>
+                        <div class="price-body">
+                            <div class="price-description">
+                                <ul>
+                                    <li>Bootstrap 5</li>
+                                    <li>Font Awesome</li>
+                                    <li>Responsive Design</li>
+                                    <li>Browser Compatibility</li>
+                                    <li>Easy To Use</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="price-footer">
+                            <div class="price-action">
+                                <a class="btn" href="">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="price-item">
+                        <div class="price-header">
+                            <div class="price-title">
+                                <h2>Premium</h2>
+                            </div>
+                            <div class="price-prices">
+                                <h2><small>$</small>149<span>/ mo</span></h2>
+                            </div>
+                        </div>
+                        <div class="price-body">
+                            <div class="price-description">
+                                <ul>
+                                    <li>Bootstrap 5</li>
+                                    <li>Font Awesome</li>
+                                    <li>Responsive Design</li>
+                                    <li>Browser Compatibility</li>
+                                    <li>Easy To Use</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="price-footer">
+                            <div class="price-action">
+                                <a class="btn" href="">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
+    <!-- price end -->
+
+    <!-- testimonial start -->
+    <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
+        <div class="container">
+            <div class="testimonial-icon">
+                <i class="fa fa-quote-left"></i>
+            </div>
+            <div class="owl-carousel testimonials-carousel">
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="./img/testimonial/testimonial-1.jpg" alt="Image">
+                    </div>
+                    <div class="testimonial-text">
+                        <p>
+                            Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                        </p>
+                        <h3>Elisabeth Beqauri</h3>
+                        <h4>UI / UX Designer</h4>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="./img/testimonial/testimonial-2.jpg" alt="Image">
+                    </div>
+                    <div class="testimonial-text">
+                        <p>
+                            Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                        </p>
+                        <h3>Lee Min-Ho</h3>
+                        <h4>Web Developer</h4>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="./img/testimonial/testimonial-3.jpg" alt="Image">
+                    </div>
+                    <div class="testimonial-text">
+                        <p>
+                            Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
+                        </p>
+                        <h3>Robyn Fenty</h3>
+                        <h4>Web Designer</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonial end -->
+
+    <!-- team start -->
+    <div class="team" id="team">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>My Team</p>
+                <h2>Expert Team Members</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="./img/team/team-1.jpg" alt="Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Mollie Ross</h2>
+                            <h4>Web Designer</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                            </p>
+                            <div class="team-social">
+                                <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="./img/team/team-2.jpg" alt="Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Marshall Mathers</h2>
+                            <h4>Web Developer</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                            </p>
+                            <div class="team-social">
+                                <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="./img/team/team-3.jpg" alt="Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Jennifer Page</h2>
+                            <h4>Apps Designer</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                            </p>
+                            <div class="team-social">
+                                <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="./img/team/team-4.jpg" alt="Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Jack Iakovenko</h2>
+                            <h4>Full Stack Developer</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                            </p>
+                            <div class="team-social">
+                                <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn" href=""><i class="fab fa-github"></i></a>
+                                <a class="btn" href=""><i class="fab fa-reddit"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team end -->
+
+    <!-- contact start -->
+    <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-8">
+                        <div class="contact-form">
+                            <div id="success"></div>
+                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                    <p class="help-block"></p>
+                                </div>
+                                <div>
+                                    <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact end -->
+
+
+    <!-- blog start -->
+    <div class="blog" id="blog">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>From Blog</p>
+                <h2>Latest Articles</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="blog-img">
+                            <img src="./img/blog/blog-1.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-text">
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                            <div class="blog-meta">
+                                <p><i class="far fa-user"></i>Admin</p>
+                                <p><i class="far fa-list-alt"></i>Web Design</p>
+                                <p><i class="far fa-calendar-alt"></i>26-Mar-2021</p>
+                                <p><i class="far fa-comments"></i>5</p>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                            </p>
+                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="blog-img">
+                            <img src="./img/blog/blog-2.jpg" alt="Blog">
+                        </div>
+                        <div class="blog-text">
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                            <div class="blog-meta">
+                                <p><i class="far fa-user"></i>Admin</p>
+                                <p><i class="far fa-list-alt"></i>Apps Design</p>
+                                <p><i class="far fa-calendar-alt"></i>26-Mar-2021</p>
+                                <p><i class="far fa-comments"></i>10</p>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                            </p>
+                            <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog end -->
+
+    <!-- footer start -->
+    <div class="footer wow fadeIn" data-wow-delay="0.3s">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="footer-info">
+                    <h2>Nino Shpetishvili</h2>
+                    <h3>123 Street, New York, USA</h3>
+                    <div class="footer-menu">
+                        <p>+012 345 67890</p>
+                        <p>info@example.com</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <p>&copy; <a href="#">PortFolio</a>, All Right Reserved | Designed By <a href="#">Jack Iakovenko</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+    <!-- Back to top button -->
+    <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+        <div class="loader"></div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
     <script src="./js/main.js"></script>
-    
+
 </body>
 </html>

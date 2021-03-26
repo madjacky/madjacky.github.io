@@ -1,0 +1,117 @@
+@import "./blocks/buttons.css";
+@import "./blocks/navbar.css";
+@import "./blocks/hero.css";
+@import "./blocks/secheader.css";
+@import "./blocks/about.css";
+@import "./blocks/service.css";
+@import "./blocks/experience.css";
+@import "./blocks/banner.css";
+@import "./blocks/portfolio.css";
+@import "./blocks/price.css";
+@import "./blocks/testimonial.css";
+@import "./blocks/team.css";
+@import "./blocks/contact.css";
+@import "./blocks/blog.css";
+@import "./blocks/footer.css";
+
+body {
+    color: #797979;
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2, 
+h3, 
+h4,
+h5, 
+h6 {
+    color: #414141;
+}
+
+a {
+    color: #313131;
+    transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #EF233C;
+    outline: none;
+    text-decoration: none;
+}
+
+.container-fluid {
+    max-width: 1366px;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .3s ease-out, visibility 0s linear .3s;
+    -o-transition: opacity .3s ease-out, visibility 0s linear .3s;
+    transition: opacity .3s ease-out, visibility 0s linear .3s;
+    z-index: 999;
+}
+
+#loader.show {
+    -webkit-transition: opacity .6s ease-out, visibility 0s linear 0s;
+    -o-transition: opacity .6s ease-out, visibility 0s linear 0s;
+    transition: opacity .6s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+#loader .loader {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border: 5px solid #dddddd;
+    border-top: 5px solid #EF233C;
+    border-radius: 50%;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    width: 44px;
+    height: 44px;
+    padding: 8px 0;
+    text-align: center;
+    line-height: 1;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    z-index: 9;
+}
+
+.back-to-top i {
+    color: #ffffff;
+}
+
+.back-to-top:hover i {
+    color: #414141;
+}
